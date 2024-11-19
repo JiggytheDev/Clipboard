@@ -1,0 +1,390 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    font-family: 'Bai Jamjuree';
+}
+
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* overflow: hidden; */
+    padding-bottom: 2rem;
+    font-family: 'Bai Jamjuree';
+}
+
+.header {
+    background-image: url(images/bg-header-desktop.png);
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.header-content {
+    text-align: center;
+    background: none;
+    margin: 2rem auto;
+}
+
+.header-content h1 {
+    font-size: 2.3rem;
+}
+
+.header-content p {
+    font-size: 17px;
+    width: 65%;
+    transform: translateX(0%);
+    text-align: center;
+    margin: 1rem auto;
+}
+
+.download {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1.5rem auto;
+    gap: 1rem;
+    overflow: hidden;
+}
+
+.download h3 {
+    background-color: hsl(171, 66%, 44%);
+    padding: .7rem;
+    border-radius: 15rem;
+    font-size: 14px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.download h3:nth-child(2) {
+    background-color: hsl(233, 100%, 69%);
+}
+
+.main-track {
+    text-align: center;
+    overflow: hidden;
+    transform: translateY(-70%);
+}
+
+.main-track h1 {
+    margin: 1rem auto;
+}
+
+.main-track p {
+    text-align: center;
+    font-size: 17px;
+}
+
+.quick-search {
+    display: flex;
+    flex-direction: row;
+    gap: 6rem;
+    text-align: start;
+    align-items: center;
+    margin: 3rem auto;
+    position: relative;
+}
+
+.quick-search img {
+    width: 45rem;
+    position: relative;
+    right: 50px;
+}
+
+.search {
+    padding-bottom: 5rem;
+}
+
+.search p {
+   font-size: 1.8rem;
+}
+
+.search h1 {
+    font-size: 2.5rem;
+}
+
+.access {
+    text-align: center;
+    margin: 2rem auto;
+}
+
+.access h1 {
+    font-size: 2.5rem;
+}
+
+.access p {
+    transform: translateX(20%);
+    font-size: 19px;
+    width: 70%;
+}
+
+.workflow {
+    text-align: center;
+    position: relative;
+}
+
+.workflow p {
+    margin: 1rem auto;
+}
+
+.tools-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.tools {
+    text-align: center;
+}
+
+.tools img {
+    margin: 1rem auto;
+}
+
+.tools p {
+    line-height: 1.3;
+}
+
+.sponsors {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3.5rem;
+    transform: translateY(30%);
+}
+
+.app-stores {
+    margin: 2rem auto;
+    text-align: center;
+    transform: translateY(30%);
+}
+
+.app-stores p {
+    margin: 1rem auto;
+    line-height: 1.5;
+}
+
+.desktops {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    transform: translateY(0%);
+    cursor: pointer;
+    padding-bottom: 8rem;
+}
+
+.desktops h3:hover, .download h3:hover {
+    background-color: hsla(171, 66%, 44%, 0.699);
+}
+
+.desktops h3:nth-child(2):hover, .download h3:nth-child(2):hover {
+    background-color: hsla(233, 100%, 69%, 0.842);
+}
+
+.desktops h3 {
+    background-color: hsl(171, 66%, 44%);
+    padding: .7rem;
+    border-radius: 22px;
+    color: #fff;
+    font-size: 15px;
+}
+
+.desktops h3:nth-child(2) {
+    background-color: hsl(233, 100%, 69%);
+}
+
+section {
+    background-color: hsla(202, 11%, 66%, 0.116);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1rem;
+}
+
+.links a {
+    text-decoration: none;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    line-height: 1.5;
+    color: #000;
+}
+
+.links a:hover {
+    color: hsl(171, 66%, 44%);
+}
+
+.links-two a {
+    text-decoration: none;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: 
+    center;
+    line-height: 1.5;
+    color: #000;
+}
+
+.links-two a:hover {
+    color: hsl(171, 66%, 44%);
+}
+
+.last-links a {
+    text-decoration: none;
+    display: flex;
+    transform: translateY(-80%);
+    color: #000;
+}
+
+.last-links a:hover {
+    color: hsl(171, 66%, 44%);
+}
+
+.logo-footer {
+    width: 5rem;
+}
+
+.social-link {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1rem;
+}
+
+.social-link a:hover {
+    transform: scale(1.2);
+}
+
+.x:hover {
+    background-color: hsl(171, 66%, 44%);
+    color: blue;
+}
+
+.attribution {
+    text-align: center;
+    background-color: hsla(202, 11%, 66%, 0.116);
+}
+
+.attribution a:hover {
+    color: hsl(171, 66%, 44%);
+    text-decoration: none;
+}
+
+
+@media (max-width: 504px) {
+    .content {
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+    }
+
+    .header-content {
+
+    }
+
+    .download {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .quick-search {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .main-track {
+        transform: translateY(5%);
+    }
+
+    .quick-search h1 {
+        font-size: 2.4rem;
+    }
+
+    .quick-search p {
+        font-size: 1.7rem;
+        text-align: center;
+    }
+
+    .quick-search img {
+        width: 90%;
+        position: relative;
+        right: 0px;
+    }
+
+    .workflow {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .tools-section {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sponsors {
+        display: flex;
+        flex-direction: column;
+        transform: translateY(15%);
+    }
+
+    .app-stores .desktops {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .access img {
+        width: 100%;
+    }
+
+    .access {
+        transform: translateY(-20%);
+    }
+
+    section {
+        display: flex;
+        flex-direction: column;
+        font-size: 24px;
+    }
+
+    section .logo-footer {
+        width: 3rem;
+    }
+
+    section img {
+        margin: 1rem auto;
+    }
+
+    .links, .links-two, .last-links {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .last-links {
+        transform: translateY(80%);
+    }
+
+    
+}
